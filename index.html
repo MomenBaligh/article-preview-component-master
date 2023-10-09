@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+
+<body>
+  <div class="big-containe">
+    <div class="container">
+      <div class="image-container">
+        <img id="desk" src="./images/drawers.jpg" alt="">
+      </div>
+      <div class="text-box">
+        <h3>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h3>
+
+        <p class="sub">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+        <div class="bottomBox">
+        <img class="auther-avatar" src="./images/avatar-michelle.jpg" alt="">
+        <span class="auther-name">Michelle Appleton</span>
+        <span class="date">28 Jun 2020</span>
+        <div id="hideMenu" class="hideIcon">
+          <span class="span3">SHARE</span>
+          <img class="share-box-icon" src="./images/icon-facebook.svg" alt="">
+          <img class="share-box-icon" src="./images/icon-twitter.svg" alt="">
+          <img class="share-box-icon" src="./images/icon-pinterest.svg" alt="">
+        </div>
+        <button id="sbotton" class="sbotton" onclick="toggleBtn()"><img src="./images/icon-share.svg" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.big-containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#desk{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.container{
+    display: flex;
+    width: 710px;
+    height: 300px;
+}
+
+.image-container{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 15px 0 0 15px;
+}
+.text-box{
+    width: 410px;
+    height: 300px;
+    border-radius: 0 15px 15px 0;
+    background-color: white;
+    padding: 30px;
+    color: hsl(217, 19%, 35%);
+}
+.sub{
+    opacity: 0.8;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.bottomBox{
+    position: relative;
+    width: 410px;
+    height: 70px;
+}
+.auther-name{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-weight: 700;
+}
+.date{
+    position: absolute;
+    bottom: 26%;
+    left: 15%;
+    opacity: 0.5;
+}
+.sbotton{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30%;
+    right: 18%;
+    border-radius: 30px;
+    border: none;
+}
+.share-box-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.hideIcon {
+    display: none;
+	position: absolute;
+	background: hsl(217, 19%, 35%);
+	border-radius: .4em;
+    width: 200px;
+    top: -110%;
+    right: -2.5%;
+    padding: 12px;
+    text-align: center;
+    box-shadow: 3px 3px 3px;
+}
+.hideIcon:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: hsl(217, 19%, 35%);
+	border-bottom: 0;
+	margin-left: -10px;
+	margin-bottom: -10px;
+}
+.span3{
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+.auther-avatar{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
