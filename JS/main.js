@@ -1,9 +1,7 @@
-function toggleBtn(){
-    const btn = document.getElementById('hideMenu');
-
-    if(btn.style.display !== 'block'){
-        btn.style.display = 'block';
-    } else {
-        btn.style.display = 'none';
-    }
+function toggleSharePopover() {
+  const sharePopover = document.querySelector('.share-container');
+  sharePopover.classList.toggle('open');
 }
+
+const shareButton = document.querySelector('.share-button');
+shareButton.addEventListener('click', toggleSharePopover);
